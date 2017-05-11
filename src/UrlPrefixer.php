@@ -39,7 +39,7 @@ class UrlPrefixer
         $this->protocols = $protocols;
 
         $joined_protocols = join('|', $this->protocols);
-        $this->protocols_regex = "!((". $joined_protocols."):)?\/\/!i";
+        $this->protocols_regex = "!^(#|((". $joined_protocols."):)?\/\/)!i";
 
         return $this;
     }
