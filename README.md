@@ -1,6 +1,6 @@
 # Germania\UrlPrefixer
 
-**Prefix any URL with a base URL, if not absolute.**
+**Prefix any URL with a base URL, if not absolute or hashtagged “jump link”.**
 
 [![Build Status](https://travis-ci.org/GermaniaKG/UrlPrefixer.svg?branch=master)](https://travis-ci.org/GermaniaKG/UrlPrefixer)
 [![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/?branch=master)
@@ -28,6 +28,12 @@ echo $prefixer('/index.html');
 // If URL is absolute, nothing happens:
 echo $prefixer('//dist/styles.css');
 // Result: "//dist/styles.css"
+
+// If URL is hashtagged, nothing happens as well:
+echo $prefixer('#navigation');
+// Result: "#navigation"
+
+
 ```
 
 ### Custom URL prefixes
