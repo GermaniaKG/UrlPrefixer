@@ -1,6 +1,6 @@
 # Germania\UrlPrefixer
 
-**Recursively prepends a path prefix to path string, array or StdClass objects.**
+**Prefix any URL with a base URL, if not absolute.**
 
 [![Build Status](https://travis-ci.org/GermaniaKG/UrlPrefixer?branch=master)](https://travis-ci.org/GermaniaKG/UrlPrefixer)
 [![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/?branch=master)
