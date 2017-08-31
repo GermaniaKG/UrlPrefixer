@@ -53,15 +53,25 @@ echo $prefixer('//dist/styles.css', 'https://cdn.test.com');
 // Result: "//dist/styles.css"
 ```
 
+## Issues
 
+See [issues list.][i0]
 
-## Development and Testing
+[i0]: https://github.com/GermaniaKG/UrlPrefixer/issues 
 
-Develop using `develop` branch, using [Git Flow](https://github.com/nvie/gitflow).   
+## Development
 
 ```bash
 $ git clone git@github.com:GermaniaKG/UrlPrefixer.git urlprefixer
 $ cd urlprefixer
-$ cp phpunit.xml.dist phpunit.xml
-$ phpunit
+$ composer install
+```
+
+## Unit tests
+
+Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. 
+Run [PhpUnit](https://phpunit.de/) like this:
+
+```bash
+$ vendor/bin/phpunit
 ```
