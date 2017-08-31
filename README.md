@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.org/GermaniaKG/UrlPrefixer.svg?branch=master)](https://travis-ci.org/GermaniaKG/UrlPrefixer)
 [![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/build-status/master)
 
 ## Installation
 
