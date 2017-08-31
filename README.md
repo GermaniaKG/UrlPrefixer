@@ -1,4 +1,4 @@
-# Germania\UrlPrefixer
+# Germania KG · UrlPrefixer
 
 **Prefix any URL with a base URL, if not absolute or hashtagged “jump link”.**
 
