@@ -2,12 +2,16 @@
 
 **Prefix any URL with a base URL, if not absolute or hashtagged “jump link”.**
 
-[![Build Status](https://travis-ci.org/GermaniaKG/UrlPrefixer.svg?branch=master)](https://travis-ci.org/GermaniaKG/UrlPrefixer)
-[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/?branch=master)
+
+[![Packagist](https://img.shields.io/packagist/v/germania-kg/urlprefixer.svg?style=flat)](https://packagist.org/packages/germania-kg/urlprefixer)
+[![PHP version](https://img.shields.io/packagist/php-v/germania-kg/urlprefixer.svg)](https://packagist.org/packages/germania-kg/urlprefixer)
+[![Build Status](https://img.shields.io/travis/GermaniaKG/UrlPrefixer.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/UrlPrefixer)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/build-status/master)
 
-## Installation
+
+## Installation with Composer
 
 ```bash
 $ composer require germania-kg/urlprefixer
@@ -63,16 +67,18 @@ See [issues list.][i0]
 ## Development
 
 ```bash
-$ git clone git@github.com:GermaniaKG/UrlPrefixer.git urlprefixer
-$ cd urlprefixer
+$ git clone https://github.com/GermaniaKG/UrlPrefixer.git
+$ cd UrlPrefixer
 $ composer install
 ```
 
 ## Unit tests
 
-Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. 
-Run [PhpUnit](https://phpunit.de/) like this:
+Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. Run [PhpUnit](https://phpunit.de/) test or composer scripts like this:
 
 ```bash
+$ composer test
+# or
 $ vendor/bin/phpunit
 ```
+

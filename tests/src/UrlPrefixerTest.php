@@ -4,7 +4,7 @@ namespace tests;
 use Germania\UrlPrefixer\UrlPrefixer;
 use \InvalidArgumentException;
 
-class UrlPrefixerTest extends \PHPUnit_Framework_TestCase
+class UrlPrefixerTest extends \PHPUnit\Framework\TestCase
 {
 
     /**
