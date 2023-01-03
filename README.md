@@ -5,11 +5,7 @@
 
 [![Packagist](https://img.shields.io/packagist/v/germania-kg/urlprefixer.svg?style=flat)](https://packagist.org/packages/germania-kg/urlprefixer)
 [![PHP version](https://img.shields.io/packagist/php-v/germania-kg/urlprefixer.svg)](https://packagist.org/packages/germania-kg/urlprefixer)
-[![Build Status](https://img.shields.io/travis/GermaniaKG/UrlPrefixer.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/UrlPrefixer)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/UrlPrefixer/build-status/master)
-
+[![Tests](https://github.com/GermaniaKG/UrlPrefixer/actions/workflows/tests.yml/badge.svg)](https://github.com/GermaniaKG/UrlPrefixer/actions/workflows/tests.yml)
 
 ## Installation with Composer
 
